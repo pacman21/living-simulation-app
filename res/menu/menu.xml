@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/doActivity"
+          android:title="Do Activity" />
+    <item android:id="@+id/create"
+          android:title="Edit Activities" />
+	<item android:id="@+id/avatar"
+          android:title="Avatar Editor" />
+	<item android:id="@+id/scores"
+          android:title="View Scores" />
+		<item android:id="@+id/instructions"
+          android:title="Instructions" />
+	<item android:id="@+id/changeDecrease"
+          android:title="Edit Decrease" />
+</menu>

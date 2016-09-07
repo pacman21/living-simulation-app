@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:gravity="left"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+	
+      <com.google.ads.AdView
+          android:id="@+id/adView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          ads:adSize="BANNER"
+          ads:adUnitId="a151852ed460ae4"
+          ads:loadAdOnCreate="true"
+          ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+          android:gravity="center" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
+
+        <Button
+            android:id="@+id/head_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_arrow" />
+		
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/head_blank" />
+            
+        <Button
+            android:id="@+id/head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/right_arrow" />
+
+        <TextView
+            android:id="@+id/headPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Owned"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </TableRow>
+	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+
+		<Button
+            android:id="@+id/body_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/left_arrow" />
+		
+	    <ImageView
+	        android:id="@+id/body"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/shirt_blank" />
+	    
+	    <Button
+            android:id="@+id/body_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/right_arrow" />
+	    
+	   <TextView
+            android:id="@+id/bodyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Owned"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	<TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+	    
+    	<Button
+            android:id="@+id/pants_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/left_arrow" />
+
+	    <ImageView
+	        android:id="@+id/pants"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/pants_blank" />
+
+    	<Button
+            android:id="@+id/pants_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/right_arrow" />
+    	
+    	<TextView
+            android:id="@+id/pantsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Owned"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    	
+   	</TableRow>
+	
+	<TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+    	<Button
+            android:id="@+id/shoes_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/left_arrow" />
+
+	    <ImageView
+	        android:id="@+id/shoes"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/shoes_blank" />
+
+	    <Button
+            android:id="@+id/shoes_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/right_arrow" />
+	   
+	   <TextView
+            android:id="@+id/shoesPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Owned"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	<TableRow>
+	    <TextView
+	        />
+	    <Button
+	    android:id="@+id/wearAndBuy"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Wear and Buy Clothes" />
+	</TableRow>
+	    
+
+</TableLayout> 

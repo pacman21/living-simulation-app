@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+	
+      <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a151852ed460ae4"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                         android:gravity="center" 
+                         ads:loadAdOnCreate="true"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1" >
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hygiene"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/hygieneValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"  />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Social"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/socialValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"   />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/funValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"  />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/energyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"  />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fitness"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/fitnessValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"  />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/workValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textColor="#00FF00"
+                android:textSize="24dp"
+        		android:textScaleX=".68"
+        		android:textAlignment="center"
+        		android:textStyle="bold"
+        		android:gravity="center"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginLeft="10dp"
+        		android:background="@drawable/round_rect_shape"
+                android:textAppearance="?android:attr/textAppearanceLarge"  />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hunger"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/hungerValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/round_rect_shape"
+                android:gravity="center"
+                android:text="llllllllllllllllllllllllllllllllllllllllllllllllll"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#00FF00"
+                android:textScaleX=".68"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Updated"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/updateValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Value"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+    </TableLayout>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   	
+    <EditText
+        android:id="@+id/faceBookText2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textMultiLine" 
+        android:text="I just did the activity 'Brushed My Teeth' in Living Simulation! Come play Living Simulation on your Android device!">
+    </EditText>
+    
+    <CheckBox
+        android:id="@+id/toFbCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:text="Check to Submit to Facebook" />
+            
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Do Activity" />
+</LinearLayout> 
+</ScrollView>
